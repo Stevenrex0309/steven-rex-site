@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+   <header data-aos="fade-down">
+    <div class="logo"><a href="#">weather website for lusaka province  </h2></a></div>
+    <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <div class="to-five-day"><a href="forecast.html" id="fiveDayForecastLink">View Five-Day Forecast</a></div>
+        <a href="#" id="toggle-temp">Convert to °F</a>
+    </nav>
+   </header>
+
+   <section id="home" class="home" data-aos="fade-up">
+    <div class="words">
+        <h2> we provide the best weather forecast just a click away </h2>
+    <p>accurate top notch weather info </p>
+    </div>
+    <div class="search-box">
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="search">Search</button>
+    </div>
+</section>
+
+<section id="current" data-aos="fade-up">
+    <div class="weather-box" id="weather" data-aos="zoom-in">
+        <h3 data-aos="fade-right">Current Weather Info</h3>
+        <p data-aos="fade-left">Search for a city to get current weather updates or enable location for automatic updates.</p>
+    </div>
+
+    <div class="weather-info" id="additional-info">
+        <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-wind"></i>
+            <p id="wind-speed">Wind Speed: -- m/s</p>
+        </div>
+        <div class="info-box" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-tint"></i>
+            <p id="humidity">Humidity: -- %</p>
+        </div>
+        <div class="info-box" data-aos="fade-up" data-aos-delay="600">
+            <i class="fas fa-sun"></i>
+            <p id="sunrise">Sunrise: --:--</p>
+        </div>
+        <div class="info-box" data-aos="fade-up" data-aos-delay="800">
+            <i class="fas fa-moon"></i>
+            <p id="sunset">Sunset: --:--</p>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+<section class="about-section">
+    <h3>About</h3>
+    <div class="about-slider">
+        <div class="slide active">
+            <div class="slide-content">
+                <i class="icon mission-icon"></i>
+                <h4>our  Mission</h4>
+                <p class="slide-text">To provide innovative solutions that empower communities and drive sustainable progress.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <i class="icon vision-icon"></i>
+                <h4>our  Vision</h4>
+                <p class="slide-text">To be a leading force for positive change through technology and community-driven solutions.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <i class="icon values-icon"></i>
+                <h4>our  Values</h4>
+                <p class="slide-text">Commitment, Integrity, Innovation, and Collaboration.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <i class="icon team-icon"></i>
+                <h4> US  </h4>
+                <p class="slide-text">Driven professional committed to delivering quality and excellence in every project.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <i class="icon history-icon"></i>
+                <h4> Project info</h4>
+                <p class="slide-text">Established in 2024 November 18th, consistency is the key to succes  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer data-aos="fade-up">
+    <ul>
+        <li><a href="http://www.icuzambia.net">ICU Zambia</a></li>
+        <li><a href="http://www.zrdc.org">ZRDC</a></li>
+        <li><a href="weather app .html"></a></li>
+    </ul>
+    </ul>
+    <p>&copy;copyright 2024 Weather App.   muchinga ward 24.    All rights reserved.   Designed and maintained by steven chibuye SIN 2311792993 </p>
+    <p>your best rovider when it comes to weather conditions information </p>
+</footer>
+
+</div>
+
+<script src="https://kit.fontawesome.com/aed6434f35.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
